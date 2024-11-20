@@ -1,0 +1,69 @@
+* {
+    font-family: "Terminus";
+    font-size: 14px;
+    min-height: 0;
+    animation: none;
+    transition: none;
+}
+
+window#waybar {
+    background-color: #1F1F28;
+    color: #C8C093;
+    border: 1px solid #C8C093;
+}
+
+#window {
+    margin: 8px;
+    padding-left: 8;
+    padding-right: 8;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button {
+    padding: 0 6px 0 1px;
+    margin: -6px;
+    background-color: inherit;
+    color: inherit;
+}
+
+#workspaces button:hover {
+    background-color: inherit;
+    color: #DCD7BA;
+}
+
+#custom-launcher:hover {
+    background-color: #FFFFFF;
+    color: #DCD7BA;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#pulseaudio,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#wireplumber,
+#tray,
+#network,
+#mode,
+#scratchpad {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+

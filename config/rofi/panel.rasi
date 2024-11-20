@@ -1,0 +1,55 @@
+@import "colors.rasi"
+
+configuration {
+  show-icons: true;
+  location: 1;
+}
+
+prompt {
+  enabled: false;
+}
+
+window {
+  height: 70%;
+  width: 25%;
+  orientation: vertical;
+  x-offset: 4px;
+  y-offset: 36px;
+  margin: 0px;
+  padding: 5px;
+  border: 1px;
+  border-radius: 10px;
+  spacing: 0px;
+}
+
+inputbar {
+  spacing: 0px;
+  padding: 2px;
+}
+
+entry {
+  placeholder:  "Search...";
+  padding: 0px 5px;
+  border-radius: 0px;
+}
+
+listview {
+  spacing: 4px;
+  scrollbar: false;
+  cycle: true;
+  padding: 2px;
+  margin: 4px;
+  border: 0px;
+  border-radius: 0px;
+}
+
+element {
+  border: 0px;
+  border-radius: 0px;
+  padding: 5px;
+}
+
+element-icon {
+  size: 28px;
+  border: 0px;
+}

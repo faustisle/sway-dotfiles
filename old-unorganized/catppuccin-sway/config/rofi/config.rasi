@@ -1,0 +1,45 @@
+@import "colors.rasi"
+
+window {
+  width: 45%;
+  orientation: vertical;
+  location: center;
+  anchor: center;
+  x-offset: 0px;
+  y-offset: 0px;
+  margin: 0px;
+  padding: 5px;
+  border: 2px;
+  border-radius: 0px;
+  spacing: 0px;
+}
+
+inputbar {
+  spacing: 0px;
+  /*padding: top right bottom left*/
+  padding: 2px;
+}
+
+entry {
+  placeholder:  "Search...";
+  padding: 0px 5px;
+  border-radius: 0px;
+}
+
+listview {
+  lines: 7;
+  spacing: 3px;
+  scrollbar: false;
+  cycle: false;
+  padding: 0px;
+  margin: 0px;
+  /* List view has the dash border, Remove it here */
+  border: 0px;
+  border-radius: 0px;
+}
+
+element {
+  border: 0px;
+  border-radius: 0px;
+  padding: 5px;
+}

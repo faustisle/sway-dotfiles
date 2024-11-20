@@ -1,0 +1,94 @@
+@define-color bg0 #141b1e;
+@define-color bg1 #232a2d;
+@define-color bg2 #2E383C;
+@define-color bg3 #374145;
+@define-color fg #dadada;
+@define-color green #A7C080;
+@define-color aqua #83C092;
+
+
+* {
+    font-family: "Terminus";
+    font-size: 14px;
+    min-height: 0;
+    /*font-weight: bold;*/
+}
+
+window#waybar {
+    background: transparent;
+    background-color: @bg1;
+    color: @fg;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    border: 1px solid @green;
+}
+
+#window {
+    margin: 8px;
+    padding-left: 8;
+    padding-right: 8;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+/*
+button:hover {
+    background: inherit;
+    color: @mauve;
+    border-top: 2px solid @mauve;
+}
+*/
+#workspaces button {
+    padding: 0 6px 0 1px;
+}
+/*
+#workspaces button.focused {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: @overlay1;
+    border-top: 2px solid @overlay1;
+}
+
+#workspaces button.active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: @mauve;
+    border-top: 2px solid @mauve;
+}
+*/
+#workspaces button.urgent {
+    background-color: @alert;
+}
+
+#pulseaudio,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#wireplumber,
+#tray,
+#network,
+#mode,
+#scratchpad {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left>widget:first-child>#workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right>widget:last-child>#workspaces {
+    margin-right: 0;
+}
+
