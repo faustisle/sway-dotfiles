@@ -16,6 +16,11 @@ exec autotiling
 
 exec dunst
 
+exec nm-applet 
+
+# Enables inhibit_idle when playing audio
+exec sway-audio-idle-inhibit
+
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg '#2A2A37' solid_color
 #
@@ -26,8 +31,7 @@ output "eDP-1" {
     scale_filter smart
     dpms on
     subpixel rgb
-    render_bit_depth 8
-    max_render_time 15 
+    max_render_time 8 
 } 
 
 ### Idle configuration

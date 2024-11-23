@@ -9,12 +9,18 @@ prompt {
   enabled: false;
 }
 
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "";
+}
+
 window {
   height: 70%;
   width: 25%;
   orientation: vertical;
   x-offset: 4px;
-  y-offset: 36px;
+  y-offset: 4px;
   margin: 0px;
   padding: 5px;
   border: 1px;
@@ -35,7 +41,7 @@ entry {
 
 listview {
   spacing: 4px;
-  scrollbar: false;
+  scrollbar: true;
   cycle: true;
   padding: 2px;
   margin: 4px;
@@ -52,4 +58,9 @@ element {
 element-icon {
   size: 28px;
   border: 0px;
+}
+
+scrollbar {
+    handle-width:                5px ;
+    border-radius:               8px;
 }

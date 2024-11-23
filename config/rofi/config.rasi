@@ -4,6 +4,12 @@ prompt {
   enabled: false;
 }
 
+textbox-prompt-colon {
+  enabled: true;
+  expand: false;
+  str: "";
+}
+
 window {
   width: 30%;
   orientation: vertical;

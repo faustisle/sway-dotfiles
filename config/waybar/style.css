@@ -1,5 +1,5 @@
 * {
-    font-family: "Terminus";
+    font-family: "Terminess Nerd Font";
     font-size: 14px;
     min-height: 0;
     animation: none;
@@ -26,7 +26,6 @@ button {
 
 #workspaces button {
     padding: 0 6px 0 1px;
-    margin: -6px;
     background-color: inherit;
     color: inherit;
 }
@@ -36,13 +35,28 @@ button {
     color: #DCD7BA;
 }
 
-#custom-launcher:hover {
-    background-color: #FFFFFF;
-    color: #DCD7BA;
+#custom-launcher {
+    padding-left: 9px;
+    padding-right: 0px;
+    box-shadow: inset 0 0 0 1px #C8C093;
+}
+
+#custom-power {
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-left: 2px;
+    box-shadow: inset 0 0 0 1px #C8C093;
+}
+
+#custom-launcher:hover,
+#custom-power:hover {
+    background-color: #C8C093;
+    color: #1F1F28;
+    box-shadow: inset 0 0 0 1px #C8C093;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #EB4D4B;
 }
 
 #pulseaudio,
@@ -65,5 +79,4 @@ button {
   padding-left: 4px;
   padding-right: 4px;
 }
-
 
