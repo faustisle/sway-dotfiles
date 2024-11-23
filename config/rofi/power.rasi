@@ -3,6 +3,9 @@ configuration {
   dpi:                  120;
   show-icons:           false;
   disable-history:      true;
+  hover-select: true;
+  me-select-entry: "MousePrimary";
+  me-accept-entry: "!MousePrimary";
 }
 
 @import "colors.rasi"
