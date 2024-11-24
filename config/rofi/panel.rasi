@@ -13,13 +13,13 @@ prompt {
 }
 
 textbox-prompt-colon {
-    enabled:                     true;
-    expand:                      false;
-    str:                         "";
+  enabled: true;
+  expand: false;
+  str: "";
 }
 
 window {
-  height: 70%;
+  height: 60%;
   width: 25%;
   orientation: vertical;
   x-offset: 4px;
@@ -27,17 +27,18 @@ window {
   margin: 0px;
   padding: 5px;
   border: 1px;
-  border-radius: 10px;
-  spacing: 0px;
+  border-radius: 6px;
+  spacing: 2px;
 }
 
 inputbar {
   spacing: 0px;
   padding: 2px;
+  margin: 2px;
 }
 
 entry {
-  placeholder:  "Search...";
+  placeholder: "Search...";
   padding: 0px 5px;
   border-radius: 0px;
 }
@@ -47,7 +48,7 @@ listview {
   scrollbar: true;
   cycle: true;
   padding: 2px;
-  margin: 4px;
+  margin: 0px;
   border: 0px;
   border-radius: 0px;
 }
@@ -55,15 +56,14 @@ listview {
 element {
   border: 0px;
   border-radius: 0px;
-  padding: 5px;
 }
 
 element-icon {
-  size: 28px;
+  size: 24px;
   border: 0px;
 }
 
 scrollbar {
-    handle-width:                5px ;
-    border-radius:               8px;
+  handle-width: 5px ;
+  border-radius: 8px;
 }

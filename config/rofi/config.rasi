@@ -33,10 +33,11 @@ window {
 inputbar {
   spacing: 0px;
   padding: 2px;
+  margin: 2px;
 }
 
 entry {
-  placeholder:  "Search...";
+  placeholder: "Search...";
   padding: 0px 5px;
   border-radius: 0px;
 }

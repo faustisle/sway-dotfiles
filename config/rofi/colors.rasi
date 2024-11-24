@@ -1,36 +1,30 @@
 * {
-  font:                   "Terminus 14";
-  foreground:             #C8C093;
-  background:             #1F1F28;
-  highlight:              #54546D;
-}
-
-element-icon {
-  /*Better to increase the whole element size with dpi*/
-  /* Or Maybe Not, Just have a unified icon size for all scheme */
-  size: 18;
+  font: "Terminus 14";
+  foreground: #C8C093;
+  background: #1F1F28;
+  highlight: #54546D;
 }
 
 element-text {
-  highlight:        @highlight;
+  highlight: @highlight;
 }
 
 window {
-  border-color:     @foreground;
+  border-color: @foreground;
 }
 
 inputbar {
-  text-color:       @foreground;
+  text-color: @foreground;
   background-color: @background;
 }
 
 prompt {
-  text-color:       @background;
+  text-color: @background;
   background-color: @foreground;
 }
 
 textbox-prompt-colon {
-  text-color:       @background;
+  text-color: @background;
   background-color: @foreground;
 }
 
@@ -40,7 +34,7 @@ message {
 }
 
 entry {
-  text-color:       @foreground;
+  text-color: @foreground;
   background-color: @background;
 }
 
@@ -49,51 +43,51 @@ listview {
 }
 
 mode-switcher {
-  text-color:       @foreground;
+  text-color: @foreground;
   background-color: @background;
 }
 
 button {
-  text-color:       @foreground;
+  text-color: @foreground;
   background-color: @background;
 }
 
 button selected {
-  text-color:       @background;
+  text-color: @background;
   background-color: @foreground;
 }
 
 element {
-  text-color:       @foreground;
+  text-color: @foreground;
   background-color: @background;
 }
 
 element normal.normal {
   background-color: @background;
-  text-color:       @foreground;
+  text-color: @foreground;
 }
 
 element normal.active {
   background-color: @background;
-  text-color:       @foreground;
+  text-color: @foreground;
 }
 
 element selected.normal {
-  text-color:       @background;
+  text-color: @background;
   background-color: @foreground;
 }
 
 element selected.active {
   background-color: @foreground;
-  text-color:       @background;
+  text-color: @background;
 }
 
 element alternate.normal {
   background-color: @background;
-  text-color:       @foreground;
+  text-color: @foreground;
 }
 
 element alternate.active {
   background-color: @background;
-  text-color:       @foreground;
+  text-color: @foreground;
 }

@@ -1,62 +1,62 @@
 * {
-    font-family: "Terminess Nerd Font";
-    font-size: 14px;
-    min-height: 0;
-    animation: none;
-    transition: none;
+  font-family: "Terminess Nerd Font";
+  font-size: 14px;
+  min-height: 0;
+  animation: none;
+  transition: none;
 }
 
 window#waybar {
-    background-color: #1F1F28;
-    color: #C8C093;
-    border: 1px solid #C8C093;
+  background-color: #1F1F28;
+  color: #C8C093;
+  border: 1px solid #C8C093;
 }
 
 #window {
-    margin: 8px;
-    padding-left: 8;
-    padding-right: 8;
+  margin: 8px;
+  padding-left: 8;
+  padding-right: 8;
 }
 
 button {
-    box-shadow: inset 0 -3px transparent;
-    border: none;
-    border-radius: 0;
+  box-shadow: inset 0 -3px transparent;
+  border: none;
+  border-radius: 0;
 }
 
 #workspaces button {
-    padding: 0 6px 0 1px;
-    background-color: inherit;
-    color: inherit;
+  padding: 0 6px 0 1px;
+  background-color: inherit;
+  color: inherit;
 }
 
 #workspaces button:hover {
-    background-color: inherit;
-    color: #DCD7BA;
+  background-color: inherit;
+  color: #DCD7BA;
 }
 
 #custom-launcher {
-    padding-left: 9px;
-    padding-right: 0px;
-    box-shadow: inset 0 0 0 1px #C8C093;
+  padding-left: 9px;
+  padding-right: 0px;
+  box-shadow: inset 0 0 0 1px #C8C093;
 }
 
 #custom-power {
-    padding-right: 15px;
-    padding-left: 10px;
-    margin-left: 2px;
-    box-shadow: inset 0 0 0 1px #C8C093;
+  padding-right: 15px;
+  padding-left: 10px;
+  margin-left: 2px;
+  box-shadow: inset 0 0 0 1px #C8C093;
 }
 
 #custom-launcher:hover,
 #custom-power:hover {
-    background-color: #C8C093;
-    color: #1F1F28;
-    box-shadow: inset 0 0 0 1px #C8C093;
+  background-color: #C8C093;
+  color: #1F1F28;
+  box-shadow: inset 0 0 0 1px #C8C093;
 }
 
 #workspaces button.urgent {
-    background-color: #EB4D4B;
+  background-color: #EB4D4B;
 }
 
 #pulseaudio,
