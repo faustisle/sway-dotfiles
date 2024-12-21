@@ -19,10 +19,15 @@ exec sway-audio-idle-inhibit
 # Improper max_render_time SEVERELY affects input latency and mouse delay
 # More details by running man 5 sway-output
 output "eDP-1" {
-    bg ~/Pictures/papes/office.jpg stretch
-    #output * bg '#2A2A37' solid_color
     max_render_time 8 
 } 
+
+output "HDMI-A-1" {
+    max_render_time 8 
+}
+ 
+# Wallpaper
+output * bg ~/Pictures/papes/office.jpg stretch
 
 ### Idle configuration
 exec swayidle -w \
@@ -46,7 +51,8 @@ input "type:touchpad" {
 }
 
 input "type:keyboard" {
-   xkb_layout br
+   xkb_layout us
+   xkb_variant intl
 }
 
 ### Key bindings
@@ -173,13 +179,16 @@ client.background        $bg0
 for_window [class="^.*"] border pixel 1
 
 # Window Gaps
-gaps outer 2
-gaps inner 6
+gaps outer 0
+gaps inner 5
 
 # Start Waybar
 bar {
     swaybar_command waybar
 }
-
+### Bottom Taskbar (no screen margin, similar to MATE)
+#exec_always waybar -c ~/.config/waybar/taskbar.jsonc 
+### Vertical Taskbar
+#exec_always waybar -c ~/.config/waybar/vertical.jsonc
 
 include /etc/sway/config.d/*

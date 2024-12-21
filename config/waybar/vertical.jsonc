@@ -1,0 +1,14 @@
+{
+  "position": "left",
+  "margin": "5 0 5 5",
+  "modules-left": ["wlr/taskbar"],
+  "modules-center": [],
+  "modules-right": [],
+
+  "wlr/taskbar": {
+  "format": " {icon} ",
+  "icon-size": 24,
+  "tooltip-format": "{title}",
+  "on-click": "activate"
+  }
+}
